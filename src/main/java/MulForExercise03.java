@@ -4,22 +4,21 @@ public class MulForExercise03 {
 		int lineCount = 5;
 
 		for (int i = 1; i <= lineCount; ++i) {
-			
-			for(int s = 1; s<= lineCount - i; ++s) {
+
+			for (int s = 1; s <= lineCount - i; ++s) {
 				System.out.print(' ');
 			}
-			
-			
-			for(int n=1 ;n<= i*2-1;++n) {
-				if(n==1||n==i*2-1||i==lineCount) {
-				System.out.print('*');
-				}else {
+
+			for (int n = 1; n <= i * 2 - 1; ++n) {
+				if (n == 1 || n == i * 2 - 1 || i == lineCount) {
+					System.out.print('*');
+				} else {
 					System.out.print(' ');
 				}
 			}
-			
+
 			System.out.println();
-			
+
 		}
 	}
 }
