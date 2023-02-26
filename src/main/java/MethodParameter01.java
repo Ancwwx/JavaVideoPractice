@@ -9,10 +9,10 @@ public class MethodParameter01 {
 }
 
 class AAAA {
-	public void swap(int a, int b) {
-		int tmp = a;
-		a = b;
-		b = tmp;
-		System.out.println("\na和b交换后的值\na=" + a + "\tb=" + b);
+	public void swap(int a1, int b1) {
+		int tmp = a1;
+		a1 = b1;
+		b1 = tmp;
+		System.out.println("\na和b交换后的值\na=" + a1 + "\tb=" + b1);
 	}
 }
