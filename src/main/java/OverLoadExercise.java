@@ -4,6 +4,7 @@ public class OverLoadExercise {
 		method.M(10);
 		method.M(10, 20);
 		method.M("Num");
+		
 
 	}
 }
@@ -13,8 +14,9 @@ class Methods {
 		System.out.println(a * a);
 	}
 
-	public void M(int b, int c) {
+	public int M(int b, int c) {
 		System.out.println(b * c);
+		return b * c;
 	}
 
 	public void M(String str) {

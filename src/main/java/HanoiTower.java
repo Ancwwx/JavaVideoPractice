@@ -1,7 +1,7 @@
 public class HanoiTower {
 	public static void main(String[] args) {
 		Tower t = new Tower();
-		t.move(5, 'A', 'B', 'C');
+		t.move(3, 'A', 'B', 'C');
 
 	}
 }
