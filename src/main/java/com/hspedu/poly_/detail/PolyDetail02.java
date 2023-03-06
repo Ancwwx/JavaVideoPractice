@@ -8,7 +8,7 @@ public class PolyDetail02 {
 		System.out.println(sub.count);
 	}
 }
-
+ 
 class Base {
 	int count = 10;
 }

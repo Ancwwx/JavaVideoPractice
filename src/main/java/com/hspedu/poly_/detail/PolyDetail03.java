@@ -9,14 +9,12 @@ public class PolyDetail03 {
 		AA aa = new BB();
 		System.out.println(aa instanceof AA);
 		System.out.println(aa instanceof BB);
-		
-		Object obj=new Object();
+
+		Object obj = new Object();
 		System.out.println(obj instanceof AA);
-		
-		String str="hello";
+
+		String str = "hello";
 		System.out.println(str instanceof Object);
-		
-		
 
 	}
 
