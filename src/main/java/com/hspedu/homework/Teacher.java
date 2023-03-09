@@ -19,7 +19,6 @@ public class Teacher {
 		this.grade = grade;
 	}
 
-
 	public String getName() {
 		return name;
 	}
@@ -59,9 +58,10 @@ public class Teacher {
 	public void setGrade(double grade) {
 		this.grade = grade;
 	}
-	public void introduce() {
-		System.out.println("  name=" + name + "  age=" + age + "  post=" + post + "  salary=" + salary+"  grade="+grade);
-	} 
 
+	public void introduce() {
+		System.out.println(
+				"  name=" + name + "  age=" + age + "  post=" + post + "  salary=" + salary + "  grade=" + grade);
+	}
 
 }
