@@ -18,7 +18,7 @@ public class Student extends Person {
 	}
 
 	public void study() {
-		System.out.println("我承诺,我会好好学习");
+		System.out.println(getName()+"承诺,我会好好学习");
 	}
 
 	public String play() {
@@ -32,6 +32,11 @@ public class Student extends Person {
 		study();
 		System.out.println(play());
 
+	}
+
+	@Override
+	public String toString() {
+		return "Student [stu_id=" + stu_id + "]" + super.toString();
 	}
 
 }

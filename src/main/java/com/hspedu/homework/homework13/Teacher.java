@@ -1,9 +1,7 @@
 package com.hspedu.homework.homework13;
 
 public class Teacher extends Person {
-	private String name;
-	private char gender;
-	private int age;
+
 	private int work_age;
 
 	public Teacher(String name, char gender, int age, int work_age) {
@@ -20,7 +18,7 @@ public class Teacher extends Person {
 	}
 
 	public void teach() {
-		System.out.println("我承诺，我会认真教学");
+		System.out.println(getName()+"承诺，我会认真教学");
 	}
 
 	public String play() {
@@ -35,4 +33,10 @@ public class Teacher extends Person {
 		System.out.println(play());
 
 	}
+
+	@Override
+	public String toString() {
+		return "Teacher [work_age=" + work_age + "]" + super.toString();
+	}
+
 }
